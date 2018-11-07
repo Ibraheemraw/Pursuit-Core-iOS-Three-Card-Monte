@@ -22,6 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="carNum1" image="cardBackRed"/>
                                 <connections>
+                                    <action selector="disableAllCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kl1-QS-TB7"/>
                                     <action selector="flip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UUP-Bd-7cs"/>
                                 </connections>
                             </button>
@@ -56,6 +57,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="carNum2" image="cardBackRed"/>
                                 <connections>
+                                    <action selector="disableAllCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DMj-9B-G04"/>
                                     <action selector="flip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CD9-89-Hkm"/>
                                 </connections>
                             </button>
@@ -64,6 +66,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="carNum3" image="cardBackRed"/>
                                 <connections>
+                                    <action selector="disableAllCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SOg-Zq-Ob0"/>
                                     <action selector="flip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuJ-4e-ArJ"/>
                                 </connections>
                             </button>
